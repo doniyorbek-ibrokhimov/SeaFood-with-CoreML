@@ -1,33 +1,42 @@
 # SeaFood-with-CoreML
-SeaFood-with-CoreML
-SeaFood-with-CoreML is an iOS app that uses Core ML to identify seafood based on an image taken with the device's camera. The app uses a pre-trained model to classify the seafood image and display the name of the dish and a confidence score.
 
-Features
+SeaFood-with-CoreML is an iOS app that uses Core ML to identify different types of seafood based on a picture taken by the user. The app uses a pre-trained Core ML model from Apple, and allows the user to take a picture or choose one from their photo library to identify the seafood in the image.
+
+## Features
+
 SeaFood-with-CoreML has the following features:
 
-Uses Core ML to identify seafood based on an image taken with the device's camera.
-Displays the name of the seafood dish and a confidence score.
-Installation
+- Allows the user to take a picture or choose one from their photo library to identify the seafood in the image.
+- Uses Core ML to identify different types of seafood, including fish, shrimp, and sushi.
+- Displays the name and confidence level of the identified seafood in the app.
+
+## Installation
+
 To install SeaFood-with-CoreML, follow these steps:
 
-Clone this repository to your local machine using git clone https://github.com/LanceloT7730/SeaFood-with-CoreML.git
-Open the project in Xcode 12 or later.
-Build and run the app on your device or simulator.
-Usage
+1. Clone this repository to your local machine using `git clone https://github.com/LanceloT7730/SeaFood-with-CoreML.git`
+2. Open the project in Xcode 12 or later.
+3. Build and run the app on your device or simulator.
+
+## Usage
+
 To use SeaFood-with-CoreML, follow these steps:
 
-Open the app on your device.
-Point your camera at a seafood dish.
-Take a picture by tapping the camera button.
-The app will identify the seafood dish using Core ML.
-The app will display the name of the dish and a confidence score.
-Contributing
+1. Open the app on your device.
+2. Choose to take a new photo or select one from your library.
+3. The app will use Core ML to identify the seafood in the image.
+4. The identified seafood and confidence level will be displayed in the app.
+
+## Contributing
+
 If you'd like to contribute to SeaFood-with-CoreML, follow these steps:
 
-Fork this repository.
-Create a new branch: git checkout -b my-new-branch.
-Make your changes and commit them: git commit -m 'Add some feature'.
-Push to the branch: git push origin my-new-branch.
-Submit a pull request.
-License
-SeaFood-with-CoreML is released under the MIT License. See LICENSE for details.
+1. Fork this repository.
+2. Create a new branch: `git checkout -b my-new-branch`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-branch`.
+5. Submit a pull request.
+
+## License
+
+SeaFood-with-CoreML is released under the MIT License. See `LICENSE` for details.
