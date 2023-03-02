@@ -1,5 +1,5 @@
 # SeaFood-with-CoreML
-![Alt text](https://dropfile.repl.co/dw/967e731bc9649f7a28aa9g47s)
+![Alt text](Docs/SeaFood.gif)
 
 SeaFood-with-CoreML is an iOS app that uses Core ML to identify different types of seafood based on a picture taken by the user. The app uses a pre-trained Core ML model from Apple, and allows the user to take a picture or choose one from their photo library to identify the seafood in the image.
 
